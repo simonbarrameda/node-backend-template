@@ -1,0 +1,34 @@
+{
+  "name": "node-be",
+  "version": "0.0.1",
+  "description": "Backend server template using NodeJS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "celebrate",
+    "joi",
+    "debug",
+    "template"
+  ],
+  "author": "Simon C. Barrameda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^10.0.1",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.0"
+  }
+}
